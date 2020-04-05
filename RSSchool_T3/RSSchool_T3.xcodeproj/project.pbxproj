@@ -16,6 +16,7 @@
 		25787FA62436460F0066701D /* Polynomial.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 25787FA52436460E0066701D /* Polynomial.pdf */; };
 		25787FAB243665140066701D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 25787FA8243665140066701D /* ViewController.m */; };
 		25787FAC243665140066701D /* Task 3 - Great mixer.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 25787FA9243665140066701D /* Task 3 - Great mixer.pdf */; };
+		3276B5D6243A6D9F009E1D73 /* UIColor+HexString.m in Sources */ = {isa = PBXBuildFile; fileRef = 3276B5D5243A6D9F009E1D73 /* UIColor+HexString.m */; };
 		E3821557225B533B00E3B12B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E3821556225B533B00E3B12B /* AppDelegate.m */; };
 		E382155F225B533E00E3B12B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E382155E225B533E00E3B12B /* Assets.xcassets */; };
 		E3821562225B533E00E3B12B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E3821560225B533E00E3B12B /* LaunchScreen.storyboard */; };
@@ -52,6 +53,8 @@
 		25787FA8243665140066701D /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		25787FA9243665140066701D /* Task 3 - Great mixer.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Task 3 - Great mixer.pdf"; sourceTree = "<group>"; };
 		25787FAA243665140066701D /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		3276B5D4243A6D9F009E1D73 /* UIColor+HexString.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIColor+HexString.h"; sourceTree = "<group>"; };
+		3276B5D5243A6D9F009E1D73 /* UIColor+HexString.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIColor+HexString.m"; sourceTree = "<group>"; };
 		E3821552225B533B00E3B12B /* RSSchool_T3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RSSchool_T3.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E3821555225B533B00E3B12B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		E3821556225B533B00E3B12B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -103,6 +106,8 @@
 		E3821549225B533B00E3B12B = {
 			isa = PBXGroup;
 			children = (
+				3276B5D4243A6D9F009E1D73 /* UIColor+HexString.h */,
+				3276B5D5243A6D9F009E1D73 /* UIColor+HexString.m */,
 				E3821554225B533B00E3B12B /* RSSchool_T3 */,
 				E382156D225B533E00E3B12B /* RSSchool_T3Tests */,
 				E3821578225B533E00E3B12B /* RSSchool_T3UITests */,
@@ -307,6 +312,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3276B5D6243A6D9F009E1D73 /* UIColor+HexString.m in Sources */,
 				E3821565225B533E00E3B12B /* main.m in Sources */,
 				25787F8E243643770066701D /* Combinator.m in Sources */,
 				25787F892436434A0066701D /* PolynomialConverter.m in Sources */,
