@@ -9,6 +9,5 @@
 #import <UIKit/UIKit.h>
 
 @interface UIColor(HexString)
-+ (UIColor *)colorFromHexString:(NSString *)hexString;
 + (NSString*)getHexFromR:(int)r G:(int)g B:(int)b;
 @end
