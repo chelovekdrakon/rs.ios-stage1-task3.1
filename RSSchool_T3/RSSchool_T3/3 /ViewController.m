@@ -72,6 +72,10 @@ CGFloat INPUT_CONTAINER_HEIGHT = 50;
     UITextField *greenField = self.RGBFields[1];
     UITextField *blueField = self.RGBFields[2];
     
+    [redField resignFirstResponder];
+    [greenField resignFirstResponder];
+    [blueField resignFirstResponder];
+    
     // Validate Text
     
     if ((redField.text.length == 0) || (greenField.text.length == 0) || (blueField.text.length == 0)) {
